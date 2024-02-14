@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Interview-Task/static/css/main.c74ddc9c.css",
+    "main.js": "/Interview-Task/static/js/main.6914d4fe.js",
+    "static/media/celeb.png": "/Interview-Task/static/media/celeb.64b5877a83cb5b0e4f30.png",
+    "static/media/membership.jpg": "/Interview-Task/static/media/membership.3478b4c7788492df4007.jpg",
+    "static/media/img3.jpg": "/Interview-Task/static/media/img3.12651c0175a977603de0.jpg",
+    "static/media/real-estate-house.png": "/Interview-Task/static/media/real-estate-house.4971117080b96441a6e2.png",
+    "static/media/img1.jpg": "/Interview-Task/static/media/img1.f68d08cc632f55f06b25.jpg",
+    "static/media/img2.jpg": "/Interview-Task/static/media/img2.78da90ce372956ddf645.jpg",
+    "index.html": "/Interview-Task/index.html",
+    "main.c74ddc9c.css.map": "/Interview-Task/static/css/main.c74ddc9c.css.map",
+    "main.6914d4fe.js.map": "/Interview-Task/static/js/main.6914d4fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74ddc9c.css",
+    "static/js/main.6914d4fe.js"
+  ]
+}
