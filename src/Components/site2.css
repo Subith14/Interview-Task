@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.input2{
+    transform: translateY(60%);
+}
+.input,.input2{
+    height: 50px;
+    border: 2px solid rgb(144, 144, 144);
+    border-radius: 50px;
+}
+.reminder{
+    text-align: center;
+    color: rgb(169, 167, 167);
+}
+.button{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    height: 45px;
+    border: 2px solid rgb(144, 144, 144);
+    border-radius: 50px;
+    
+}

@@ -1,0 +1,468 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.container{
+    transform: translateY(-5%);
+}
+#heading{
+margin-left: -750px;
+transform: translateY(15%);
+}
+.links ul li{
+    margin: 1%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.links ul li:hover{
+    color: blue;
+}
+.text-center{
+    display: flex;
+    flex-direction: column;
+ margin-left: 80%;
+ transform: translateY(-75%); 
+}
+.text-center p{
+    cursor: pointer;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h4{
+    font-weight: 400;
+    font-size: 40px;
+}
+.slash{
+    color: black;
+    margin-top: -3%;
+    width: 30px;
+    border: none;
+    border-top: 2px solid;
+}
+#button{
+    width: 50%;
+    margin-left: 9%;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(154, 154, 154);
+    border-radius: 50px;
+    font-weight: bolder;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.carousal{
+    text-align: center;
+}
+.feature{
+    color: rgb(84, 164, 173);
+}
+.fa-2x{
+    color: rgb(172, 176, 177);
+}
+#underline{
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.carousaltext{
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #330867 0%, #30CFD0 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#btn1,#btn2{
+    color: white;
+    font-size: 20px;
+    border: solid 2px rgb(154, 154, 154);
+    border-radius: 50px;
+    font-weight: 500; 
+    box-shadow: teal 0px 30px 90px 0px inset, rgb(6, 142, 49) 0px 18px 50px 0px inset;
+}
+#btn1{
+    width: 40%;
+}
+#btn2{
+    width: 30%;
+}
+#carousal1{
+    width: 100%;
+}
+#card{
+    width: 15rem;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+#imgheader{
+    margin-left: 100%;
+    transform: translateY(3%);
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .container{
+        transform: translateY(-0%);
+    }
+    #heading{
+        margin-left: -200px;
+        transform: translateY(30%);
+        font-size: 20px;
+        }
+        .slash{  
+            margin-top: -15px;
+        }
+        #imglogo{
+            width: 100%;
+            height: auto;
+        }
+        #button{
+            width: 100%;
+            margin-left: 1%;
+            background-color: rgb(255, 255, 255);
+            border: solid 2px rgb(154, 154, 154);
+            border-radius: 50px;
+            font-weight: bolder;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #imgheader{
+            margin-left: -15%;
+            transform: translateY(1%);
+        }
+        .text-center{
+            transform: translateY(10%);
+        }
+        .text-center p{
+            cursor: pointer;
+            font-size: 10px;
+           
+        }
+        .links ul li{
+            font-size: 13px;
+            margin: 2%;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        #card{
+            width: 12rem;
+            height: 200px;
+            border-radius: 20px;
+            margin-left: 3%;
+        }
+        .carousaltext{
+            font-size: 13px;
+        }
+        #carousalbutton{
+            margin-left: 0%;
+        }
+        #btn1,#btn2{
+            font-size: 13px;
+        }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .container{
+        transform: translateY(-0%);
+    }
+    #heading{
+        margin-left: -360px;
+        transform: translateY(15%);
+        }
+        .slash{  
+            margin-top: -15px;
+        }
+        #imglogo{
+            width: 100%;
+            height: auto;
+        }
+        #button{
+            width: 100%;
+            margin-left: 1%;
+            background-color: rgb(255, 255, 255);
+            border: solid 2px rgb(154, 154, 154);
+            border-radius: 50px;
+            font-weight: bolder;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #imgheader{
+            margin-left: 0%;
+            transform: translateY(1%);
+        }
+        .text-center{
+            transform: translateY(-55%);
+        }
+        .text-center p{
+            cursor: pointer;
+            font-size: larger;
+           
+        }
+        .links ul li{
+            margin: 1%;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        #card{
+            width: 15rem;
+            height: 250px;
+            border-radius: 20px;
+            margin-left: 2%;
+        }
+        .carousaltext{
+            font-size: 23px;
+        }
+        #carousalbutton{
+            margin-left: 0%;
+        }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .container{
+        transform: translateY(-0%);
+    }
+    #heading{
+        margin-left: -450px;
+        transform: translateY(15%);
+        }
+        .slash{  
+            margin-top: -15px;
+        }
+        #imglogo{
+            width: 100%;
+            height: auto;
+        }
+        #button{
+            width: 100%;
+            margin-left: 1%;
+            background-color: rgb(255, 255, 255);
+            border: solid 2px rgb(154, 154, 154);
+            border-radius: 50px;
+            font-weight: bolder;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        #imgheader{
+            margin-left: 10%;
+            transform: translateY(1%);
+        }
+        .text-center{
+            transform: translateY(-55%);
+        }
+        .text-center p{
+            cursor: pointer;
+            font-size: larger;
+           
+        }
+        .links ul li{
+            margin: 1%;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        #card{
+            width: 13rem;
+            height: 300px;
+            border-radius: 20px;
+            margin-left: 3%;
+        }
+        .carousaltext{
+            font-size: 28px;
+        }
+        #carousalbutton{
+            margin-left: 0%;
+        }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        transform: translateY(-0%);
+    }
+    #heading{
+        margin-left: -575px;
+        transform: translateY(15%);
+        }
+        .slash{  
+            margin-top: -15px;
+        }
+        #imglogo{
+            width: 100%;
+            height: auto;
+        }
+        #button{
+            width: 100%;
+            margin-left: 1%;
+            background-color: rgb(255, 255, 255);
+            border: solid 2px rgb(154, 154, 154);
+            border-radius: 50px;
+            font-weight: bolder;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+        .carousal{
+            margin-left: 20%;
+        }
+        #carousal1{
+            width: 80%;
+            margin-left: 20%;
+        }
+        #card{
+            width: 12rem;
+            height: 200px;
+            border-radius: 20px;
+            margin-left: 1%;
+        }
+        .carousaltext{
+            font-size: 20px;
+        }
+        #carousalbutton{
+            margin-left: 20%;
+        }
+        #imgheader{
+            margin-left: 100%;
+            transform: translateY(1%);
+        }
+        .text-center{
+            transform: translateY(-55%);
+        }
+        .text-center p{
+            cursor: pointer;
+            font-size: large;
+           
+        }
+        .links ul li{
+            margin: 1%;
+            font-weight: 500;
+            cursor: pointer;
+        }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+    }
+    .container{
+        transform: translateY(-5%);
+    }
+    #heading{
+    margin-left: -750px;
+    transform: translateY(15%);
+    }
+    .links ul li{
+        margin: 1%;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .links ul li:hover{
+        color: blue;
+    }
+    .text-center{
+        display: flex;
+        flex-direction: column;
+     margin-left: 80%;
+     transform: translateY(-75%); 
+    }
+    .text-center p{
+        cursor: pointer;
+        font-size: large;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container h4{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .slash{
+        color: black;
+        margin-top: -3%;
+        width: 30px;
+        border: none;
+        border-top: 2px solid;
+    }
+    #button{
+        width: 50%;
+        margin-left: 9%;
+        background-color: rgb(255, 255, 255);
+        border: solid 2px rgb(154, 154, 154);
+        border-radius: 50px;
+        font-weight: bolder;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .carousal{
+        text-align: center;
+        margin-left: 0%;
+    }
+    .feature{
+        color: rgb(84, 164, 173);
+    }
+    .fa-2x{
+        color: rgb(172, 176, 177);
+    }
+    #underline{
+        transform: translateY(-50%);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousaltext{
+        font-family: "Cagliostro", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 30px;
+        background: linear-gradient(to right, #330867 0%, #30CFD0 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #btn1,#btn2{
+        color: white;
+        margin-left: -20%;
+        font-size: 20px;
+        border: solid 2px rgb(154, 154, 154);
+        border-radius: 50px;
+        font-weight: 500; 
+        box-shadow: teal 0px 30px 90px 0px inset, rgb(6, 142, 49) 0px 18px 50px 0px inset;
+    }
+    #btn1{
+        width: 40%;
+    }
+    #btn2{
+        width: 30%;
+    }
+    #imglogo{
+        width: 70%;
+        height: 420px;
+    }
+    #carousal1{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #card{
+        width: 15rem;
+        height: 300px;
+        border-radius: 20px;
+        margin-left: 3%;
+    }
+    #imgheader{
+        margin-left: 100%;
+        transform: translateY(3%);
+    }
+
+}
+
+
+
